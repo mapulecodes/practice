@@ -1,0 +1,33 @@
+element.style {
+}
+.site-footer-wrapper {
+    --bg: ---color-footer-bg;
+    --text: ---color-footer-text;
+    --border: ---color-footer-border;
+    position: relative;
+    background-color: var(---color-footer-bg);
+    color: var(---color-footer-text);
+    text-align: left;
+}
+body * {
+    -webkit-font-smoothing: antialiased;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+abbr, address, article, aside, audio, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, fieldset, figcaption, figure, footer, form, header, hgroup, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: initial;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
